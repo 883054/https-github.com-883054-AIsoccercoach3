@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8843A47F29BF9DF8004901AE /* welcomeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8843A47E29BF9DF8004901AE /* welcomeview.swift */; };
-		88BC22F129BD2A8000AC1CA0 /* AIsoccercoach2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC22F029BD2A8000AC1CA0 /* AIsoccercoach2App.swift */; };
+		88BC22F129BD2A8000AC1CA0 /* AIsoccercoach3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC22F029BD2A8000AC1CA0 /* AIsoccercoach3App.swift */; };
 		88BC22F329BD2A8000AC1CA0 /* launchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC22F229BD2A8000AC1CA0 /* launchview.swift */; };
 		88BC22F529BD2A8100AC1CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BC22F429BD2A8100AC1CA0 /* Assets.xcassets */; };
 		88BC22F829BD2A8100AC1CA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BC22F729BD2A8100AC1CA0 /* Preview Assets.xcassets */; };
@@ -21,8 +21,8 @@
 
 /* Begin PBXFileReference section */
 		8843A47E29BF9DF8004901AE /* welcomeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeview.swift; sourceTree = "<group>"; };
-		88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIsoccercoach2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		88BC22F029BD2A8000AC1CA0 /* AIsoccercoach2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIsoccercoach2App.swift; sourceTree = "<group>"; };
+		88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIsoccercoach3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BC22F029BD2A8000AC1CA0 /* AIsoccercoach3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIsoccercoach3App.swift; sourceTree = "<group>"; };
 		88BC22F229BD2A8000AC1CA0 /* launchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchview.swift; sourceTree = "<group>"; };
 		88BC22F429BD2A8100AC1CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BC22F729BD2A8100AC1CA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		88BC22E429BD2A8000AC1CA0 = {
 			isa = PBXGroup;
 			children = (
-				88BC22EF29BD2A8000AC1CA0 /* AIsoccercoach2 */,
+				88BC22EF29BD2A8000AC1CA0 /* AIsoccercoach3 */,
 				88BC22EE29BD2A8000AC1CA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,15 +62,15 @@
 		88BC22EE29BD2A8000AC1CA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach2.app */,
+				88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88BC22EF29BD2A8000AC1CA0 /* AIsoccercoach2 */ = {
+		88BC22EF29BD2A8000AC1CA0 /* AIsoccercoach3 */ = {
 			isa = PBXGroup;
 			children = (
-				88BC22F029BD2A8000AC1CA0 /* AIsoccercoach2App.swift */,
+				88BC22F029BD2A8000AC1CA0 /* AIsoccercoach3App.swift */,
 				88BC22FE29BD2AB300AC1CA0 /* Views */,
 				88BC22FF29BD2ABA00AC1CA0 /* ViewModels */,
 				88BC230029BD2AC300AC1CA0 /* Models */,
@@ -78,7 +78,7 @@
 				88BC22F429BD2A8100AC1CA0 /* Assets.xcassets */,
 				88BC22F629BD2A8100AC1CA0 /* Preview Content */,
 			);
-			path = AIsoccercoach2;
+			path = AIsoccercoach3;
 			sourceTree = "<group>";
 		};
 		88BC22F629BD2A8100AC1CA0 /* Preview Content */ = {
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88BC22EC29BD2A8000AC1CA0 /* AIsoccercoach2 */ = {
+		88BC22EC29BD2A8000AC1CA0 /* AIsoccercoach3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88BC22FB29BD2A8100AC1CA0 /* Build configuration list for PBXNativeTarget "AIsoccercoach2" */;
+			buildConfigurationList = 88BC22FB29BD2A8100AC1CA0 /* Build configuration list for PBXNativeTarget "AIsoccercoach3" */;
 			buildPhases = (
 				88BC22E929BD2A8000AC1CA0 /* Sources */,
 				88BC22EA29BD2A8000AC1CA0 /* Frameworks */,
@@ -132,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = AIsoccercoach2;
+			name = AIsoccercoach3;
 			productName = AIsoccercoach1;
-			productReference = 88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach2.app */;
+			productReference = 88BC22ED29BD2A8000AC1CA0 /* AIsoccercoach3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88BC22E829BD2A8000AC1CA0 /* Build configuration list for PBXProject "AIsoccercoach2" */;
+			buildConfigurationList = 88BC22E829BD2A8000AC1CA0 /* Build configuration list for PBXProject "AIsoccercoach3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88BC22EC29BD2A8000AC1CA0 /* AIsoccercoach2 */,
+				88BC22EC29BD2A8000AC1CA0 /* AIsoccercoach3 */,
 			);
 		};
 /* End PBXProject section */
@@ -190,7 +190,7 @@
 				88DE760F29D8C5C200A0132A /* homeview.swift in Sources */,
 				88BC22F329BD2A8000AC1CA0 /* launchview.swift in Sources */,
 				88DE760B29D8C37700A0132A /* imagepicker.swift in Sources */,
-				88BC22F129BD2A8000AC1CA0 /* AIsoccercoach2App.swift in Sources */,
+				88BC22F129BD2A8000AC1CA0 /* AIsoccercoach3App.swift in Sources */,
 				88BC230429BD2FF100AC1CA0 /* contentmodel.swift in Sources */,
 				88DE760D29D8C3C800A0132A /* resultview.swift in Sources */,
 				88DE761129D8CA1100A0132A /* videoselectionview.swift in Sources */,
@@ -322,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AIsoccercoach2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIsoccercoach3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,7 +350,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AIsoccercoach2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIsoccercoach3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88BC22E829BD2A8000AC1CA0 /* Build configuration list for PBXProject "AIsoccercoach2" */ = {
+		88BC22E829BD2A8000AC1CA0 /* Build configuration list for PBXProject "AIsoccercoach3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88BC22F929BD2A8100AC1CA0 /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88BC22FB29BD2A8100AC1CA0 /* Build configuration list for PBXNativeTarget "AIsoccercoach2" */ = {
+		88BC22FB29BD2A8100AC1CA0 /* Build configuration list for PBXNativeTarget "AIsoccercoach3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88BC22FC29BD2A8100AC1CA0 /* Debug */,
